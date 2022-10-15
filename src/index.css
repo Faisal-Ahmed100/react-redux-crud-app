@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@layer base {
+    button{
+@apply bg-[#169987] text-white;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
 }

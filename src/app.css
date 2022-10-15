@@ -1,0 +1,27 @@
+.slick-slide.slick-active{
+    /* border-right-width: 1px !important;
+    border-style: solid !important;
+    border-image : 
+      linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 0.479),
+        #04cab096,
+        rgba(0, 0, 0, 0.493)
+      ) 50 100% !important; */
+      /* margin-right: 10px !important; */
+}
+@media (max-width:639px) {
+  .slick-slide.slick-active{
+    border:none !important;
+  }
+}
+button.slick-arrow.slick-prev {
+  display: none !important;
+}
+
+button.slick-arrow.slick-next {
+  display: none !important;
+}
+.slick-dots li.slick-active button:before{
+  color: white !important;
+}
